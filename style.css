@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+#principal {
+    background-color: brown;
+}
+
+#userForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+input {
+    border: none;
+    width: 400px;
+    height: 30px;
+}
